@@ -1,0 +1,48 @@
+ul,
+ol {
+  margin-top: 0;
+  padding-left: 0;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.0016em;
+  color: #2e2f42;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.container {
+  margin: 0 auto;
+  width: 440px;
+  padding: 24px;
+  border-radius: 8px;
+  background: #fff;
+}
+.item {
+  padding: 16px;
+}
+div .item {
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin-bottom: 24px;
+}
+.container :last-child {
+  margin-bottom: 0;
+}
+div .item li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.0016em;
+  color: #2e2f42;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+.item :last-child {
+  margin-bottom: 0;
+}
