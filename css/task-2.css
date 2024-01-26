@@ -1,0 +1,13 @@
+.gallery {
+  width: 1440px;
+  padding: 100px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+img {
+  width: 360px;
+}
