@@ -13,7 +13,7 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-ul{
+ul {
   margin-top: 0;
   padding-left: 0;
 }
@@ -66,3 +66,20 @@ li {
   margin-bottom: 0;
 }
 /* /task-1 style */
+
+/* task-2 style */
+.gallery {
+  width: 1440px;
+  padding: 100px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+/* /task-2 style */
+
+/* task-3 style */
+
+/* /task-3 style */
