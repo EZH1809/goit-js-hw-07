@@ -5,9 +5,9 @@
 
     nameInput.addEventListener('input', updateNameOutput);
 
-     function updateNameOutput() {
+    function updateNameOutput() {
         
-        const enteredName = nameInput.value.trim();
+    const enteredName = nameInput.value.trim();
 
         if (enteredName === '') {
             nameOutput.textContent = 'Anonymous';
