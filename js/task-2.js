@@ -31,7 +31,6 @@ const images = [
 
 const galleryElement = document.querySelector('.gallery');
 
-
     images.forEach(image => {
       const galleryItem = document.createElement('li');
       galleryItem.classList.add('gallery-item');
