@@ -1,17 +1,17 @@
 'use strict';    
 const categoriesList = document.getElementById('categories');
 
-    const categoryItems = categoriesList.querySelectorAll('li.item');   
+const categoryItems = categoriesList.querySelectorAll('li.item');  
 
-console.log(`Кількість категорій: ${categoryItems.length}`);
+console.log(`Number of categories: ${categoryItems.length}`);
 
 categoryItems.forEach(categoryItem => {
 
-    const categoryTitle = categoryItem.querySelector('h2').textContent;
+const categoryTitle = categoryItem.querySelector('h2').textContent;
 
-    const categoryElements = categoryItem.querySelectorAll('ul > li');
+const categoryElements = categoryItem.querySelectorAll('ul > li');
 
-    console.log(`Категорія: ${categoryTitle}`);
+console.log(`Category: ${categoryTitle}`);
     
-console.log(`Кількість елементів у категорії: ${categoryElements.length}`);
+console.log(`Number of items in the category: ${categoryElements.length}`);
 });
