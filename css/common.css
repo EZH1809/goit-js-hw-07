@@ -78,6 +78,7 @@ li {
   column-gap: 24px;
   row-gap: 48px;
 }
+
 /* /task-2 style */
 
 /* task-3 style */
@@ -110,13 +111,14 @@ h1 {
 }
 /* /task-3 style */
 
+/* task-4 style */
 .login-form {
   width: 408px;
   border-radius: 8px;
   background: #fff;
   padding: 24px;
 }
-label {
+/* label {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -124,10 +126,34 @@ label {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-input{
-width: 360px;
-height: 40px;
-border-radius: 4px;
-border: 1px solid #808080;
+input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+} */
+
+/* /task-4 style */
+
+/* task-5 style */
+
+
+/* /task-5 style */
+
+.widget {
+  text-align: center;
+  margin-top: 50px;
 }
 
+/* task-6 style */
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#boxes div {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+/* /task-6 style */

@@ -1,24 +1,25 @@
 'use strict';
-function submitForm(event) {
-    event.preventDefault();
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault();
 
-    const emailValue = document.forms['loginForm'].elements['email'].value.trim();
-    const passwordValue = document.forms['loginForm'].elements['password'].value.trim();
+      const emailInput = document.getElementsByName('email')[0];
+      const passwordInput = document.getElementsByName('password')[0];
+
+      const emailValue = emailInput.value.trim();
+      const passwordValue = passwordInput.value.trim();
+
+      if (emailValue === '' || passwordValue === '') {
+        alert('All form fields must be filled in');
+      } else {
+
+      const formData = {
+          email: emailValue,
+          password: passwordValue
+        };
+
+        console.log(formData);
 
    
-    if (emailValue === '' || passwordValue === '') {
-      alert('All form fields must be filled in');
-      return;
-    }
-
-  
-    const formData = {
-      email: emailValue,
-      password: passwordValue
-    };
-
- 
-    console.log(formData);
-
-    document.forms['loginForm'].reset();
-  }
+document.getElementById('loginForm').reset();
+      }
+    });
