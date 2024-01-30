@@ -137,9 +137,78 @@ input {
 
 /* task-5 style */
 
-
 /* /task-5 style */
+#controls {
+  width: 486px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  padding: 32px;
+  
+}
+#controls input {
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
+button[data-create] {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  line-height: 1.5;
+  letter-spacing: 0.0016em;
+  cursor: pointer;
+}
+button[data-destroy] {
+ 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.0016em;
+  background: #ff4e4e;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+button:hover {
+  opacity: 0.8;
+}
+
+/* 
+.btn-order {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-order:hover,
+.btn-order:focus {
+  background: #404bbf;
+  color: #fff;
+}
+
+*/
 .widget {
   text-align: center;
   margin-top: 50px;
