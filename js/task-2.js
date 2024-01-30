@@ -38,9 +38,7 @@ const galleryElement = document.querySelector('.gallery');
       const imgElement = document.createElement('img');
       imgElement.src = image.url;
       imgElement.alt = image.alt;
-      imgElement.width = 360;
-      imgElement.height = 300;
-
+     
       galleryItem.appendChild(imgElement);
       galleryElement.appendChild(galleryItem);
     });
