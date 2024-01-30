@@ -136,14 +136,19 @@ input {
 /* /task-4 style */
 
 /* task-5 style */
-
+.widget {
+  text-align: center;
+  margin-top: 50px;
+}
 /* /task-5 style */
+
+/* task-6 style */
 #controls {
   width: 486px;
   border-radius: 8px;
   background: #f6f6fe;
   padding: 32px;
-  
+  margin-bottom: 16px;
 }
 #controls input {
   width: 150px;
@@ -154,10 +159,14 @@ input {
 }
 
 button[data-create] {
+  width: 120px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
   padding: 8px 16px;
+  color: #fff;
+  border: none;
   border-radius: 8px;
   background: #4e75ff;
   line-height: 1.5;
@@ -165,7 +174,8 @@ button[data-create] {
   cursor: pointer;
 }
 button[data-destroy] {
- 
+  width: 120px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -173,49 +183,22 @@ button[data-destroy] {
   background: #ff4e4e;
   color: #fff;
   padding: 8px 16px;
+  color: #fff;
+  border: none;
   border-radius: 8px;
   cursor: pointer;
   margin: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-button:hover {
+button:hover,
+button:focus {
   opacity: 0.8;
 }
 
-/* 
-.btn-order {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background: #4d5ae5;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
-  margin: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-order:hover,
-.btn-order:focus {
-  background: #404bbf;
-  color: #fff;
-}
-
-*/
-.widget {
-  text-align: center;
-  margin-top: 50px;
-}
-
-/* task-6 style */
 #boxes {
+  width: 486px;
+  border-radius: 8px;
+  background: #f6f6fe;
   display: flex;
   flex-wrap: wrap;
 }
