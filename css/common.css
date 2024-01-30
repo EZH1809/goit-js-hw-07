@@ -4,10 +4,6 @@
 
 body {
   margin: 16px;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
   font-family: 'Montserrat', sans-serif;
   background-color: #fafafa;
   color: #212121;
@@ -28,6 +24,10 @@ h2 {
 }
 li {
   list-style: none;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* task-1 style */
 
@@ -137,9 +137,35 @@ input {
 
 /* task-5 style */
 .widget {
+  width: 345px;
   text-align: center;
-  margin-top: 50px;
+  padding: 100px 88px;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.0016em;
+  color: #2e2f42;
 }
+.widget p {
+  margin-bottom: 16px;
+}
+.widget button {
+  width: 148px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  line-height: 1.5;
+  letter-spacing: 0.0016em;
+  cursor: pointer;
+}
+
 /* /task-5 style */
 
 /* task-6 style */
@@ -151,6 +177,12 @@ input {
   margin-bottom: 16px;
 }
 #controls input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 5;
+  letter-spacing: 0.0016em;
+  color: #2e2f42;
   width: 150px;
   border-radius: 8px;
   border: 1px solid #808080;
@@ -165,7 +197,6 @@ button[data-create] {
   font-weight: 500;
   color: #fff;
   padding: 8px 16px;
-  color: #fff;
   border: none;
   border-radius: 8px;
   background: #4e75ff;
@@ -183,7 +214,6 @@ button[data-destroy] {
   background: #ff4e4e;
   color: #fff;
   padding: 8px 16px;
-  color: #fff;
   border: none;
   border-radius: 8px;
   cursor: pointer;
